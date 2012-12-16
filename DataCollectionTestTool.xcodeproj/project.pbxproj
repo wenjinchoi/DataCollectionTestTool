@@ -13,6 +13,8 @@
 		0B8448FD167C862D00018D3C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0B8448FB167C862D00018D3C /* Credits.rtf */; };
 		0B844900167C862D00018D3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8448FF167C862D00018D3C /* AppDelegate.m */; };
 		0B844903167C862D00018D3C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B844901167C862D00018D3C /* MainMenu.xib */; };
+		0B98CEF4167CBD740029517E /* DCTAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B98CEF3167CBD740029517E /* DCTAppInfo.m */; };
+		0B98CEF9167CCE640029517E /* DCTTDefaultsSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B98CEF8167CCE640029517E /* DCTTDefaultsSettings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		0B8448FE167C862D00018D3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B8448FF167C862D00018D3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B844902167C862D00018D3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0B98CEF2167CBD740029517E /* DCTAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTAppInfo.h; sourceTree = "<group>"; };
+		0B98CEF3167CBD740029517E /* DCTAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTAppInfo.m; sourceTree = "<group>"; };
+		0B98CEF8167CCE640029517E /* DCTTDefaultsSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DCTTDefaultsSettings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				0B8448FE167C862D00018D3C /* AppDelegate.h */,
 				0B8448FF167C862D00018D3C /* AppDelegate.m */,
 				0B844901167C862D00018D3C /* MainMenu.xib */,
+				0B98CEF2167CBD740029517E /* DCTAppInfo.h */,
+				0B98CEF3167CBD740029517E /* DCTAppInfo.m */,
+				0B98CEF8167CCE640029517E /* DCTTDefaultsSettings.plist */,
 				0B8448F3167C862D00018D3C /* Supporting Files */,
 			);
 			path = DataCollectionTestTool;
@@ -156,6 +164,7 @@
 				0B8448F7167C862D00018D3C /* InfoPlist.strings in Resources */,
 				0B8448FD167C862D00018D3C /* Credits.rtf in Resources */,
 				0B844903167C862D00018D3C /* MainMenu.xib in Resources */,
+				0B98CEF9167CCE640029517E /* DCTTDefaultsSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 			files = (
 				0B8448F9167C862D00018D3C /* main.m in Sources */,
 				0B844900167C862D00018D3C /* AppDelegate.m in Sources */,
+				0B98CEF4167CBD740029517E /* DCTAppInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +307,7 @@
 				0B844908167C862D00018D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
